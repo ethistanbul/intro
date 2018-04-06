@@ -24,7 +24,7 @@ contract NameServer{
 	}
 
 	function transfer(bytes32 name, address receiver){
-		require(nameStore[name] == msg.sender;
+		require(nameStore[name] == msg.sender);
 		nameStore[name] = receiver;
 	}
 }

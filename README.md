@@ -25,7 +25,13 @@
 #### Attaching running node at different terminal window
 `geth attach /home/<USERNAME>/chain/geth.ipc`
 
-#### You are in geth console now!
+## You are in geth console now!
+
+#### Resources
+
+github.com/ethereum/wiki/wiki/White-Paper
+github.com/ethereum/wiki/wiki/JSON-RPC
+
 
 #### Creating new account
 `personal.newAccount('<PASSPHRASE>')`
